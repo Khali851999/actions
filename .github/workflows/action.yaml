@@ -55,11 +55,11 @@ jobs:
       #   EXCLUDED_LANGS: ${{ secrets.EXCLUDE_LANGS }}
 
     # Commits all changed files to the repository
-    # - name: Commit to the repo
-    #   run: |
-    #     git config --global user.name "jstrieb/github-stats"
-    #     git config --global user.email "github-stats[bot]@jstrieb.github.io"
-    #     git add .
-    #     # "echo" returns true so the build succeeds, even if no changed files
-    #     git commit -m 'Update generated files' || echo
-    #     git push
+    - name: Commit to the repo
+      run: |
+        git config --global user.name "Khali851999"
+        git config --global user.email "akshatjindal215@gmail.com"
+        git add .
+        # "echo" returns true so the build succeeds, even if no changed files
+        git commit -m 'Update generated files' || echo
+        git push
