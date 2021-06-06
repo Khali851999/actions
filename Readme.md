@@ -1,1 +1,1 @@
-1
+This is an automated chron-job that gets executed at 08:00 am everyday using github actions
